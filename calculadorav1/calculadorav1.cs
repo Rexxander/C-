@@ -156,7 +156,6 @@ while (running){
                     grade_accumulator = grade_accumulator + iterator;
                 }
 
-                result = grade_accumulator / i;
 
                 if (i == 0)
                 {
@@ -164,6 +163,7 @@ while (running){
                 }
                 else 
                 {
+                    result = grade_accumulator / i;
                     Console.WriteLine($"\nPromedio Final: {result}");
 
                     if (result >= 70)
