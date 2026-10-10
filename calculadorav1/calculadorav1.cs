@@ -165,6 +165,16 @@ while (running){
                 else 
                 {
                     Console.WriteLine($"\nPromedio Final: {result}");
+
+                    if (result >= 70)
+                    {
+                        Console.WriteLine("\n\tAprobaste!");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Reprobaste, tu calificación fue menor a 70");
+                    }
                 }
                 break;
 
