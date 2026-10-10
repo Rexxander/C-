@@ -157,7 +157,6 @@ while (running){
                 }
 
                 result = grade_accumulator / i;
-                
 
                 if (i == 0)
                 {
